@@ -1,0 +1,8 @@
+#include <locale.h>
+
+int main(){
+	setlocale(LC_ALL, "Portuguese");
+}
+
+- allow to print Portuguese's characters 
+setlocale(LC_ALL, "") uses UTF-8

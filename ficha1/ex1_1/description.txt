@@ -1,0 +1,7 @@
+Using printf, draw a Christmas tree.
+The expected output is:
+   *
+  ***
+ *****
+*******
+  |||

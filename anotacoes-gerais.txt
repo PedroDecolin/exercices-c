@@ -1,7 +1,0 @@
-#include <locale.h>
-
-int main(){
-	setlocale(LC_ALL, "Portuguese");
-}
-
-- permite que use caracteres da lingua portuguesa (setlocale(LC_ALL, "") utiliza UTF-8, que inclui todos os caracteres da lingua portuguesa)

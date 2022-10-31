@@ -1,0 +1,4 @@
+Using only one pintf, print:
+"Ola mundo
+Eu sou um programa
+Escrevo 3 linhas no terminal"

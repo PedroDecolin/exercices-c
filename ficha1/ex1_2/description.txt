@@ -1,0 +1,4 @@
+Declare and inialize 5 integer variables with values 1, 2, 3, 4 and 5.
+Then, should be printed on screen the descending order of the variables
+Expected output:
+Values: 5, 4, 3, 2, 1

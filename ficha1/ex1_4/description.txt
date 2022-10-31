@@ -1,0 +1,4 @@
+Write a code that print on screen the size of the variables' types: char, int, float double
+Then, print the size of a variable "int a = 1;"
+
+- Use "sizeof"

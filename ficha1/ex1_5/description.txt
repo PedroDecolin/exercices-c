@@ -1,0 +1,1 @@
+Using three variables (hours, minutes, seconds), ask for the user an hour on format [hh:mm:ss] and calculate the total of seconds of the hour and print on screen
