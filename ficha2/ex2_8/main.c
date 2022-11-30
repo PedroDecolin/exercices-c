@@ -7,17 +7,15 @@ int main()
 	printf("Insira um caractere:\n");
 	scanf("%c", &ch);
 
-	int codigoAscii = ch;
-
-	if (ch >= 65 && ch <= 90)
+	if (ch >= 'A' && ch <= 'Z')
 	{
 		printf("A letra %c e maiuscula\nVersao minuscula e: %c", ch, (ch + 32));
 	}
-	else if (ch >= 97 && ch <= 122)
+	else if (ch >= 'a' && ch <= 'z')
 	{
 		printf("A letra '%c' e minuscula\nVersao maiuscula e: %c", ch, (ch - 32));
 	}
-	else if (ch >= 48 && ch <= 57)
+	else if (ch >= '0' && ch <= '9')
 		printf("O caractere '%c' e um numero\n", ch);
 	else
 		printf("O caractere '%c' nao e alfanumerico", ch);

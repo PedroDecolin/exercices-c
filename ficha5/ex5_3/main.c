@@ -26,5 +26,5 @@ int main()
         }
     }
 
-    printf("Resultado de %.3f ^ %d = %.3f\n", base, exp, potencia(base, exp));
+    printf("Resultado de %.2f ^ %d = %.3f\n", base, exp, potencia(base, exp));
 }

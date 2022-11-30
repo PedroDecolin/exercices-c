@@ -11,5 +11,5 @@ int main()
 	scanf("%f", &tempo);
 
 	distancia = (aceleracao * (tempo * tempo)) / 2;
-	printf("A distancia percorrida foi de: %f metros", distancia);
+	printf("A distancia percorrida foi de: %.2f metros", distancia);
 }

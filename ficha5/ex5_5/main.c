@@ -8,9 +8,8 @@ float potencia(float base, int exp)
     for (int k = 1; k <= abs(exp); k++)
         pot *= base;
 
-    if (exp < 0){
+    if (exp < 0)
         pot = 1 / pot;
-    }
 
     return pot;
 }
